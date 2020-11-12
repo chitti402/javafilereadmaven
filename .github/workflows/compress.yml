@@ -7,7 +7,7 @@
     build-script: # optional, default is build
     # The compression algorithm to use: "gzip" or "brotli"
     compression: gzip
-    # Show total size and difference.
+    
     show-total: true
     # Move unchanged files into a separate collapsed table
     collapse-unchanged: true
