@@ -1,18 +1,16 @@
 - name: compressed-size-action
-  # You may pin to the exact commit or the version.
-  # uses: preactjs/compressed-size-action@e2bfc4b346d78f9a3c7e8a2e22bcbd285a25fafa
   uses: preactjs/compressed-size-action@v2
   with:
-    # The GITHUB_TOKEN secret
+    
     repo-token: 
     # The npm-script to run that builds your project
     build-script: # optional, default is build
     # The compression algorithm to use: "gzip" or "brotli"
-    compression: # optional
+    compression: gzip
     # Show total size and difference.
-    show-total: # optional, default is true
+    show-total: true
     # Move unchanged files into a separate collapsed table
-    collapse-unchanged: # optional, default is true
+    collapse-unchanged: true
     # Exclude unchanged files from the sizes table entirely
     omit-unchanged: # optional
     # A regular expression to remove hashes from filenames. Submatches are turned into asterisks if present, otherwise the whole match is removed.
