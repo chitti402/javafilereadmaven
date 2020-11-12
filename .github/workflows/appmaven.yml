@@ -3,7 +3,7 @@
   # uses: codeinspectorio/github-action@01c818be303e2c4bcec991ca1c51feab753a1e2a
   uses: codeinspectorio/github-action@v1
   with:
-    # Token to checkout the repository.
+    #  Token to checkout the repository.
     repo_token: 
     # Access key on Code Inspector
     code_inspector_access_key: 
