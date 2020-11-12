@@ -5,3 +5,4 @@
     output-format: [json | text]
     file-path-exclusions: comma,separated,relative,paths
     arguments: -any -arguments -to -analyze
+
