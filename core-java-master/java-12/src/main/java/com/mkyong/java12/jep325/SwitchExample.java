@@ -41,7 +41,7 @@ public class SwitchExample {
     // Multiple case labels
     private static String getNumberMultipleCase(int number) {
         String result = "";
-        switch (number) {
+       /* switch (number) {
             case 1, 2:
                 result = "one or two";
                 break;
@@ -54,13 +54,13 @@ public class SwitchExample {
             default:
                 result = "unknown";
         }
-        ;
+        ;*/
         return result;
     }
 
     // break with value is dropped in favor of `yield` in Java 13.
     /*private static String getNumberViaBreak(int number) {
-        String result = switch (number) {
+/*        String result = switch (number) {
             case 1:
             case 2:
                 break "one or two";
@@ -77,7 +77,7 @@ public class SwitchExample {
     }*/
 
     // arrow, label rules, case L
-    private static String getNumberViaArrow(int number) {
+  /*  private static String getNumberViaArrow(int number) {
         String result = switch (number) {
             case 1, 2 -> "one or two";
             case 3 -> "three";
@@ -85,6 +85,6 @@ public class SwitchExample {
             default -> "unknown";
         };
         return result;
-    }
+    }*/
 
 }
